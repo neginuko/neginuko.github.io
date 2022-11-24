@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="root">
+            <header class="main-header">
+                <div class="container">
+                    <h1>My Page</h1>
+                    <nav class="main-header-navigation">
+                        <ul class="main-menu">
+                            <li class="main-menu-list"><a class="main-menu-internal-link" href="./index.html#myprofile"> Profile</a></li>
+                            <li class="main-menu-list"><a class="main-menu-internal-link" href="./index.html#myprocess">My Process</a></li>
+                            <li class="main-menu-list"><a class="main-menu-internal-link" href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <main class="main-content">
+            <article class="main-text">
+                <section class="main-text-section">
+                    <h2 id="contact">Contact</h3>
+                    <h3>お問合せフォーム</h3>
+                    <form class="form">
+                        <div class="form-item">
+                            <div class="form-label">
+                                <span class="form-label-required">必須</span>名前
+                            </div>
+                            <input type="text" class="name-input" placeholder="姓" required>
+                            <input type="text" class="name-input" placeholder="名">
+                        </div>
+                        <div class="form-item">
+                            <div class="form-label">
+                                <span class="form-label-required">必須</span>Eメール
+                            </div>
+                            <input type="email" class="email-input" placeholder="例）abcd1234@email.com" required>
+                        </div>
+                        <div class="form-item">
+                            <div class="form-label">
+                                <span class="form-label-required">必須</span>お問い合わせ内容
+                            </div>
+                            <textarea class="content-input" rows="20" cols="80"></textarea>
+                        </div>
+                        <div class="form-item">
+                            <button class="submit" type="submit">送信</button>
+                        </div>
+                    </form>
+                </section>
+            </article>
+        </main>
+    </body>
+</html>

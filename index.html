@@ -1,2 +1,87 @@
-Hello, World!
-test message
+<!--
+    ✅メニューバー
+    ✅表
+    ✅フォーム
+    ✅リンク
+    ✅ボックス
+    ✅画像
+-->
+
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="root">
+            <header class="main-header">
+                <div class="container">
+                    <h1>My Page</h1>
+                    <nav class="main-header-navigation">
+                        <ul class="main-menu">
+                            <li class="main-menu-list"><a class="main-menu-internal-link" href="#myprofile"> Profile</a></li>
+                            <li class="main-menu-list"><a class="main-menu-internal-link" href="#myprocess">My Process</a></li>
+                            <li class="main-menu-list"><a class="main-menu-internal-link" href="./contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <main class="main-content">
+            <article class="main-text">
+                <section class="main-text-section">
+                    <h2 id="myprofile">My Profile</h2>
+                    <div class="content">
+                        <img class="icon" src="img/prof_icon.png" width="150" height="150">
+                        <div class="text">
+                            <p>N県N市K大学情報学部情報学科 在学。</p>
+                            <p>ネットワーク、セキュリティについて修学中。</p>
+                        </div>
+                    </div>
+                </section>
+                <sectoin class="main-text-section">
+                    <h2 id="myprocess">My Process</h2>
+                    <div class="content">
+                        <table class="process">
+                            <tr>
+                                <th>
+                                    2000年1月
+                                </th>
+                                <td>
+                                    M市で生まれる。
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    2012年3月
+                                </th>
+                                <td>
+                                    M小学校卒業。
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    2015年3月
+                                </th>
+                                <td>
+                                    M中学校卒業。
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    2018年3月
+                                </th>
+                                <td>
+                                    M高校卒業。
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </sectoin>
+            </article>
+        </main>
+    </body>
+</html>
